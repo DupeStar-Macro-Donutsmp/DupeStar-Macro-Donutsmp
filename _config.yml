@@ -22,7 +22,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-exclude:
+exclude: 
   - README.md
   - LICENSE
   - CNAME

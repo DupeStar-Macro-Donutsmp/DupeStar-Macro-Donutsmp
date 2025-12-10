@@ -1,4 +1,4 @@
-## Hi there 👋
+## DupeStar-Macro-Donutsmp is a dupe mod macro for duping 
 
 <!--
 **DupeStar-Macro-Donutsmp/DupeStar-Macro-Donutsmp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

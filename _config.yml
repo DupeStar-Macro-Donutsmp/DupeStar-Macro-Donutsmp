@@ -1,25 +1,28 @@
----
-layout: default
-title: Home
----
+# ----------------------------------------------------------------------
+# AKTIVIERT DAS BLAUE DESIGN (ARCHITECT THEME)
+# ----------------------------------------------------------------------
+remote_theme: pages-themes/architect@v0.2.0
 
-# DupeStar - The Premium Duplication Mod
+# ----------------------------------------------------------------------
+# Ihre Projektinformationen
+# ----------------------------------------------------------------------
+title: Apollo - Minecraft Duplication Mod
+description: Apollo is a powerful duplication mod for Minecraft 1.20 with Forge. Download the latest version and enhance your Minecraft experience.
+author: Apollo Development Team
 
-**DupeStar** is the ultimate solution for Minecraft 1.20 (Forge). Simple, efficient, and secure!
+# ----------------------------------------------------------------------
+# WICHTIG: Pfadeinstellung für Ihr Repository
+# ----------------------------------------------------------------------
+baseurl: "/DupeStar-Macro-Donutsmp"
 
-## 💎 Key Features
+# ----------------------------------------------------------------------
+# Standard Jekyll-Plugins
+# ----------------------------------------------------------------------
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-* **One-Click Dupe:** Perform duplication with a single key press (Default: RShift).
-* **Anti-Detection:** Our macro is optimized to remain undetected on many servers like DonutSMP.
-* **Easy Installation:** The `.jar` file is ready to use in seconds.
-
----
-
-### ⬇️ Download
-
-Download the current version here:
-[Download Dupestar v1.0.jar](DupeStar-1.0.jar) 
-*(Note: The file name must match the name uploaded to your repository.)*
-
----
-
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME

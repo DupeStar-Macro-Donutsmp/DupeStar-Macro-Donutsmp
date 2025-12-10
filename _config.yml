@@ -1,11 +1,33 @@
-# Aktiviert das Architect Theme für GitHub Pages
-theme: architect
+# ----------------------------------------------------------------------
+# WICHTIG: Korrigierte Theme-Definition
+# Wir verwenden 'remote_theme', da 'theme: architect' allein fehlschlägt.
+# ----------------------------------------------------------------------
+remote_theme: pages-themes/architect@v0.2.0
 
-# Ihre Projektinformationen
+# ----------------------------------------------------------------------
+# Ihre Projektinformationen (wie gewünscht)
+# ----------------------------------------------------------------------
 title: DupeStar - Minecraft Duplication Mod
-description: Apollo is a powerful duplication mod for Minecraft 1.20 with Forge. Download the latest version and enhance your Minecraft experience.
+description: DupeStar is a powerful duplication mod for Minecraft 1.20 with Forge. Download the latest version and enhance your Minecraft experience.
+url: https://Trendifyy.github.io  # Falls Sie eine eigene GitHub-Seite (Trendifyy) haben
 author: DupeStar Development Team
 
-# WICHTIG: Setzt den richtigen Pfad für CSS/Bilder.
-# Er muss dem Namen Ihres Repos entsprechen.
+# ----------------------------------------------------------------------
+# WICHTIG: Setzt den Pfad (baseurl) zum Repository-Namen
+# Dies ist entscheidend, damit CSS und Bilder korrekt geladen werden.
+# ----------------------------------------------------------------------
 baseurl: "/DupeStar-Macro-Donutsmp"
+
+# ----------------------------------------------------------------------
+# GitHub Pages/Jekyll Standardeinstellungen
+# ----------------------------------------------------------------------
+# Wir verwenden hier die Standard Jekyll-Plugins für GitHub Pages
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Dateien, die von Jekyll beim Bau ignoriert werden sollen
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME

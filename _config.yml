@@ -1,1 +1,11 @@
+# Aktiviert das Architect Theme für GitHub Pages
+theme: architect
 
+# Ihre Projektinformationen
+title: DupeStar - Minecraft Duplication Mod
+description: Apollo is a powerful duplication mod for Minecraft 1.20 with Forge. Download the latest version and enhance your Minecraft experience.
+author: DupeStar Development Team
+
+# WICHTIG: Setzt den richtigen Pfad für CSS/Bilder.
+# Er muss dem Namen Ihres Repos entsprechen.
+baseurl: "/DupeStar-Macro-Donutsmp"

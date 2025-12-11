@@ -18,8 +18,8 @@ title: Home
 ### ⬇️ Download
 
 Download the current version here:
-[Download Duperstar v1.0.jar](DupeStar-1.0.jar) 
-*(Note: The file name must match the name uploaded to your repository.)*
+[Download Duperstar v1.0.jar](DupeStar-2.0.jar) 
+
 
 ---
 
